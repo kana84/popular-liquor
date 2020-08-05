@@ -1,0 +1,61 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootflat/2.0.4/css/bootflat.min.css');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+);
+
+body {
+  background-color: #fffffe;
+}
+
+.navbar {
+  margin: 2rem 0 2.5rem 0;
+}
+
+.my-navbar {
+  align-items: center;
+  background: #f9a1d0;
+  display: flex;
+  height: 7rem;
+  justify-content: space-between;
+  padding: 0 2%;
+  margin-bottom: 3rem;
+}
+
+.my-navbar-brand {
+  font-size: 25px;
+  font-family: "M PLUS Rounded 1c";
+}
+
+.my-navbar-brand,
+.my-navbar-item {
+  color: #00214d;
+}
+
+.my-navbar-brand:hover,
+a.my-navbar-item:hover {
+  color: #fde24f;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3),
+.table td:nth-child(4) {
+  white-space: nowrap;
+  width: 1px;
+}
+
+.form-control[disabled],
+.form-control[readonly] {
+  background-color: #fff;
+}
+
+.radio-control{
+  display:block;
+}
+
+.panel{
+  font-family: "M PLUS Rounded 1c";
+}
+
+.panel-body{
+  font-size: 20px;
+}
