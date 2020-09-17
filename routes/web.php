@@ -26,3 +26,7 @@ Route::get('/code/{id}/vote','VoteController@voteForm')->name('vote.liquor');
 Route::post('/code/{id}/vote','VoteController@votePopularLiquor');
 
 Route::get('/code/{id}/result','VoteController@aggregateResults')->name('vote.result');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
